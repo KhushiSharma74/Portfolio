@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
+import Main from "./components/Main";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Achievements from "./components/Achievements";
+import Header from "./components/Header";
+import Experience from "./components/Experience";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/Skills" element={<Skills />} />
+          <Route path="/Experience" element={<Experience />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/Achievements" element={<Achievements />} />
+          <Route path="/" element={<Main />} />
+          {/* <Route path="/Skills">
+            <Skills />
+          </Route> */}
+        </Routes>
+      </Router>
+
+      {/* <Form></Form> */}
     </div>
   );
 }

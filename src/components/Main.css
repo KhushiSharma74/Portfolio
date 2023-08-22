@@ -1,0 +1,283 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  /* background-color: lightgray; */
+}
+.header-wrapper {
+  padding: 10px;
+  display: flex;
+  border: 4px solid black;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  background-color: lightgray;
+}
+.Link {
+  text-decoration: none;
+  color: black;
+}
+.header-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.left-side-wrapper {
+  display: flex;
+}
+.left-side3 {
+  width: 50%;
+
+  /* background-color: antiquewhite; */
+}
+.right-side3 {
+  width: 50%;
+}
+.left-side {
+  /* background-color: antiquewhite; */
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+.right-side {
+  /* background-color: black; */
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+}
+.main-para {
+  text-align: justify;
+}
+.header-wrapper2 {
+  display: flex;
+  margin: 30px;
+}
+.left-side2 {
+  width: 50%;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  padding: 25px;
+}
+.right-side2 {
+  width: 50%;
+}
+.picture-personal {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 2px solid brown;
+  box-shadow: 10px 10px 10px 10px #383333;
+}
+.handshake {
+  width: 60px;
+  height: 60px;
+}
+/* Button Component Css */
+.button {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: darkgray;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Contact-button {
+  width: 30px;
+  height: 30px;
+  margin-left: 4px;
+  /* background-color: aqua; */
+}
+/* Skills component CSS */
+.skills-wrapper {
+  display: flex;
+  margin: 30px;
+}
+.skills-left {
+  width: 50%;
+}
+.skills-right {
+  width: 50%;
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: left;
+  padding: 15px;
+}
+.skills-image {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  border: 2px solid white;
+  box-shadow: 5px 10px 5px 10px #1c1919;
+}
+/* Experience component CSS */
+.experience-wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+.experience-left {
+  width: 50%;
+  /* background-color: aqua; */
+  padding: 15px;
+}
+.experience-right {
+  width: 50%;
+  padding: 15px;
+}
+.tcs-para {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.cog-para {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.experience-img {
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+  box-shadow: 5px 5px 5px 5px #1c1919;
+}
+/* Project component CSS */
+.project-wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+.project-left {
+  width: 50%;
+  /* background-color: aqua; */
+  padding: 15px;
+}
+.project-right {
+  width: 50%;
+  padding: 15px;
+}
+.food-para {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px #1c1919;
+  margin-bottom: 10px;
+}
+
+.portfolio-para {
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px #1c1919;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.experience-img {
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+  box-shadow: 5px 5px 5px 5px #1c1919;
+}
+/* Achievements component CSS */
+.ach-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.left-side4 {
+  width: 30%;
+}
+.right-side4 {
+  width: 30%;
+}
+.mid-side {
+  width: 30%;
+}
+.leader-img {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px #1c1919;
+  margin-bottom: 10px;
+}
+.ira-img {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px #1c1919;
+  margin-bottom: 10px;
+}
+.wings-img {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px #1c1919;
+  margin-bottom: 10px;
+}
+/* Form component CSS */
+.summary-para2 {
+  position: fixed;
+  backdrop-filter: blur(3px);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 130;
+  /* font-weight: 300;
+  width: 700px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-left: 15px;
+  color: rgb(22, 48, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 5px 5px grey; */
+}
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 550px;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  padding: 20px;
+  font-size: small;
+  background-color: lightgrey;
+}
+.input-field {
+  margin-bottom: 20px;
+}
+.input {
+  padding: 12px 20px;
+  border: 3px solid gray;
+  border-radius: 10px;
+}
+.textarea {
+  width: 300px;
+  height: 120px;
+  border: 3px solid gray;
+  border-radius: 10px;
+}
